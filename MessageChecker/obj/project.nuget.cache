@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "dgSpecHash": "PpGO41y5alz0sKUot4exrkO+N+64weHJUjQYHNTuxhsYhzd4p9lxQOV2QqNj4NXaU6pmaTY/oCq9dvYJpceQxw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sevst\\RiderProjects\\MessageChecker\\MessageChecker\\MessageChecker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sevst\\.nuget\\packages\\tgsharp\\0.3.1--date20201017-2313.git-99aa273\\tgsharp.0.3.1--date20201017-2313.git-99aa273.nupkg.sha512",
+    "C:\\Users\\sevst\\.nuget\\packages\\tlschema\\1.1.0\\tlschema.1.1.0.nupkg.sha512",
+    "C:\\Users\\sevst\\.nuget\\packages\\tlsharp\\0.1.0.574\\tlsharp.0.1.0.574.nupkg.sha512",
+    "C:\\Users\\sevst\\.nuget\\packages\\tlsharp.core\\1.1.0\\tlsharp.core.1.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"TgSharp 0.3.1--date20201017-2313.git-99aa273\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net6.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "TgSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"TLSharp 0.1.0.574\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net6.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "TLSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

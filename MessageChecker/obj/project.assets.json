@@ -1,0 +1,208 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "TgSharp/0.3.1--date20201017-2313.git-99aa273": {
+        "type": "package",
+        "compile": {
+          "lib/net46/TgSharp.Core.dll": {},
+          "lib/net46/TgSharp.TL.dll": {}
+        },
+        "runtime": {
+          "lib/net46/TgSharp.Core.dll": {},
+          "lib/net46/TgSharp.TL.dll": {}
+        }
+      },
+      "TLSchema/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TLSchema.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TLSchema.dll": {}
+        }
+      },
+      "TLSharp/0.1.0.574": {
+        "type": "package",
+        "compile": {
+          "lib/net46/TLSharp.Core.dll": {},
+          "lib/net46/TeleSharp.TL.dll": {}
+        },
+        "runtime": {
+          "lib/net46/TLSharp.Core.dll": {},
+          "lib/net46/TeleSharp.TL.dll": {}
+        }
+      },
+      "TLSharp.Core/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "TLSchema": "1.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TLSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TLSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TgSharp/0.3.1--date20201017-2313.git-99aa273": {
+      "sha512": "mRMZewUqaS4nfQJ6y3OG2NAIaKr+BatuQ2EgZy6zjEHO7xP9sHni6NQZkBuPXcsGeBbg+GUJCU/U0xO9ZBbF3w==",
+      "type": "package",
+      "path": "tgsharp/0.3.1--date20201017-2313.git-99aa273",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/TgSharp.Core.dll",
+        "lib/net46/TgSharp.TL.dll",
+        "tgsharp.0.3.1--date20201017-2313.git-99aa273.nupkg.sha512",
+        "tgsharp.nuspec"
+      ]
+    },
+    "TLSchema/1.1.0": {
+      "sha512": "IJN057mi7eUss6QRWEhzFyIwhx37aODSvPZRczqgJz3oeNeKK194jhlGTFDWfpKDlc5TcJc52TuQ0QsM5EYa3Q==",
+      "type": "package",
+      "path": "tlschema/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TLSchema.dll",
+        "tlschema.1.1.0.nupkg.sha512",
+        "tlschema.nuspec"
+      ]
+    },
+    "TLSharp/0.1.0.574": {
+      "sha512": "OzLvXyTIZsHkJbX3iZRSb1vQdnkyO5yNcdPK80Snbrpm4kab59FdtijFGQRhe2NVjjKe5TabzxNPH3M0B64Lyw==",
+      "type": "package",
+      "path": "tlsharp/0.1.0.574",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/TeleSharp.TL.dll",
+        "lib/net46/TLSharp.Core.dll",
+        "lib/net46/TeleSharp.TL.dll",
+        "tlsharp.0.1.0.574.nupkg.sha512",
+        "tlsharp.nuspec"
+      ]
+    },
+    "TLSharp.Core/1.1.0": {
+      "sha512": "Cyy43SvZfvA2DWe9kkauhJzcImhbrfANbSZ5FtZOLV3EieHma1z7tz34/y6erMdoSGZeGgY+0VqufQwoeqro2A==",
+      "type": "package",
+      "path": "tlsharp.core/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/TLSharp.dll",
+        "tlsharp.core.1.1.0.nupkg.sha512",
+        "tlsharp.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "TLSchema >= 1.1.0",
+      "TLSharp >= 0.1.0.574",
+      "TLSharp.Core >= 1.1.0",
+      "TgSharp >= 0.3.1--date20201017-2313.git-99aa273"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sevst\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sevst\\RiderProjects\\MessageChecker\\MessageChecker\\MessageChecker.csproj",
+      "projectName": "MessageChecker",
+      "projectPath": "C:\\Users\\sevst\\RiderProjects\\MessageChecker\\MessageChecker\\MessageChecker.csproj",
+      "packagesPath": "C:\\Users\\sevst\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sevst\\RiderProjects\\MessageChecker\\MessageChecker\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\sevst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "TLSchema": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "TLSharp": {
+            "target": "Package",
+            "version": "[0.1.0.574, )"
+          },
+          "TLSharp.Core": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "TgSharp": {
+            "target": "Package",
+            "version": "[0.3.1--date20201017-2313.git-99aa273, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"TgSharp 0.3.1--date20201017-2313.git-99aa273\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net6.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "TgSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"TLSharp 0.1.0.574\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net6.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "TLSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
